@@ -1,0 +1,30 @@
+{
+  "name": "ledboard",
+  "version": "1.0.0",
+  "description": "Simulating a running led text",
+  "main": "index.js",
+  "dependencies": {
+    "parcel-bundler": "^1.9.7",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "typescript": "^3.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/adityapurwa/ledboard.git"
+  },
+  "keywords": [
+    "simulation"
+  ],
+  "author": "Aditya Purwa",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/adityapurwa/ledboard/issues"
+  },
+  "homepage": "https://github.com/adityapurwa/ledboard#readme"
+}

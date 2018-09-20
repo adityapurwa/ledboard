@@ -1,0 +1,30 @@
+body {
+    background: #000;
+}
+
+#app {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.ledboard {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.ledboard td {
+    width: 24px;
+    height: 24px;
+    border-radius: 1000px;
+}
+
+.ledboard td.cell-active {
+    background: #8ed450;
+    box-shadow: 0 4px 64px #aaff63;
+}
+
+.ledboard td.cell-inactive {
+    background: radial-gradient(#000, #3b5922);
+}
